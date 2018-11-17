@@ -23,6 +23,7 @@ def new_patient():
     {patient_id: {form info}
     :return: json verifying posted info
     """
+    # Validate age
     patient = {
         "patient_id": request.form['patient_id'],
         "attending_email": request.form['attending_email'],
@@ -74,7 +75,7 @@ def get_status(patient_id):
     hr = last_heart_rate["heart_rate"]
     age = patients[patient_id]["user_age"]
     ret = {
-        "tachycardic": tachycardic(age, hr),
+        "tachycardic": tachychardic(age, hr),
         "timestamp": last_heart_rate["timestamp"]
     }
     return jsonify(ret)
@@ -137,27 +138,26 @@ def get_interval():
 
 
 # HELPER METHODS
-def tachycardic(age, hr):
+def tachychardic(age, hr):
     """
-    checks if person with age and heart rate has tachycardia
-    according to Wikipedia data
+
     :param age: age of patient
     :param hr: latest heart rate to compare against threshold
     :return: True if tachycardic, false if not
     """
     if age < 1 and hr > 169:
         return True
-    if age <= 2 and hr > 151:
+    elif age <= 2 and hr > 151:
         return True
-    if age <= 4 and hr > 137:
+    elif age <= 4 and hr > 137:
         return True
-    if age <= 7 and hr > 133:
+    elif age <= 7 and hr > 133:
         return True
-    if age <= 11 and hr > 130:
+    elif age <= 11 and hr > 130:
         return True
-    if age <= 15 and hr > 119:
+    elif age <= 15 and hr > 119:
         return True
-    if age > 15 and hr > 100:
+    elif age > 15 and hr > 100:
         return True
 
     return False
