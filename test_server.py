@@ -1,6 +1,6 @@
 import requests
 import json
-from server import tachycardic
+# from server import tachycardic
 
 def test_index():
     res = requests.get('http://127.0.0.1:5000/')
