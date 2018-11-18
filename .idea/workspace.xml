@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fd372d0-3458-4940-a144-c40319c3aa88" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test_server.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sendgrid.env" beforeDir="false" afterPath="$PROJECT_DIR$/sendgrid.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_server.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,28 +26,30 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="gitignore" value="1" />
-          <entry key="py" value="4" />
+          <entry key="env" value="2" />
+          <entry key="gitignore" value="2" />
+          <entry key="py" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="4" />
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="Python" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="37" />
-          <entry key="Python" value="6181" />
+          <entry key="PLAIN_TEXT" value="43" />
+          <entry key="Python" value="6606" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="9" />
+          <entry key="env" value="6" />
           <entry key="gitignore" value="28" />
-          <entry key="py" value="6181" />
+          <entry key="py" value="6606" />
         </counts>
       </usages-collector>
     </session>
@@ -56,40 +59,67 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-811">
-              <caret line="139" column="7" selection-start-line="139" selection-start-column="4" selection-end-line="139" selection-end-column="7" />
+            <state relative-caret-position="119">
+              <caret line="7" column="73" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="73" />
               <folding>
                 <element signature="e#0#48#0" expanded="true" />
-                <marker date="1542439993710" expanded="true" signature="150:174" ph="..." />
-                <marker date="1542439993710" expanded="true" signature="1141:5292" ph="..." />
-                <marker date="1542439993710" expanded="true" signature="3401:3896" ph="..." />
-                <marker date="1542439993710" expanded="true" signature="4556:4559" ph="..." />
-                <marker date="1542439993710" expanded="true" signature="5017:5290" ph="..." />
+                <marker date="1542510379778" expanded="true" signature="287:311" ph="..." />
+                <marker date="1542510379778" expanded="true" signature="5703:6150" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="74" column="25" lean-forward="true" selection-start-line="74" selection-start-column="25" selection-end-line="74" selection-end-column="25" />
+            <state relative-caret-position="238">
+              <caret line="14" column="44" lean-forward="true" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
-                <marker date="1542441011265" expanded="true" signature="77:182" ph="..." />
-                <marker date="1542441011265" expanded="true" signature="205:210" ph="..." />
-                <marker date="1542441011265" expanded="true" signature="624:629" ph="..." />
-                <marker date="1542441011265" expanded="true" signature="907:1113" ph="..." />
-                <marker date="1542441011265" expanded="true" signature="1135:1252" ph="..." />
-                <marker date="1542441011265" expanded="true" signature="1309:1314" ph="..." />
-                <marker date="1542441011265" expanded="true" signature="1594:1599" ph="..." />
-                <marker date="1542441011265" expanded="true" signature="1812:2018" ph="..." />
-                <marker date="1542441011265" expanded="true" signature="2299:2430" ph="..." />
-                <marker date="1542441011265" expanded="true" signature="2457:2462" ph="..." />
-                <marker date="1542441011265" expanded="true" signature="2510:2515" ph="..." />
-                <marker date="1542441011265" expanded="true" signature="2510:2772" ph="..." />
+                <marker date="1542509418805" expanded="true" signature="79:184" ph="..." />
+                <marker date="1542509418805" expanded="true" signature="207:212" ph="..." />
+                <marker date="1542509418805" expanded="true" signature="626:631" ph="..." />
+                <marker date="1542509418805" expanded="true" signature="909:1115" ph="..." />
+                <marker date="1542509418805" expanded="true" signature="1137:1254" ph="..." />
+                <marker date="1542509418805" expanded="true" signature="1311:1316" ph="..." />
+                <marker date="1542509418805" expanded="true" signature="1596:1601" ph="..." />
+                <marker date="1542509418805" expanded="true" signature="1814:2020" ph="..." />
+                <marker date="1542509418805" expanded="true" signature="2301:2432" ph="..." />
+                <marker date="1542509418805" expanded="true" signature="2459:2464" ph="..." />
+                <marker date="1542509418805" expanded="true" signature="2512:2517" ph="..." />
+                <marker date="1542509418805" expanded="true" signature="2512:2774" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sendgrid_try.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="40" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="40" />
+              <folding>
+                <element signature="e#81#96#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sendgrid.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="93" selection-start-column="93" selection-end-column="93" />
             </state>
           </provider>
         </entry>
@@ -100,6 +130,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Unit Test" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -115,8 +146,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/server.py" />
         <option value="$PROJECT_DIR$/test_server.py" />
+        <option value="$PROJECT_DIR$/server.py" />
+        <option value="$PROJECT_DIR$/sendgrid_try.py" />
+        <option value="$PROJECT_DIR$/sendgrid.env" />
       </list>
     </option>
   </component>
@@ -146,7 +179,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -160,7 +193,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_server.py">
+  <component name="RunManager" selected="Python.sendgrid_try">
+    <configuration name="sendgrid_try" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="heart_rate_sentinel_server" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sendgrid_try.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="server" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="heart_rate_sentinel_server" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -182,7 +236,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_server.test_new_patient" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_server.test_get_interval" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="heart_rate_sentinel_server" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -193,7 +247,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_server.test_new_patient&quot;" />
+      <option name="_new_target" value="&quot;test_server.test_get_interval&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -229,16 +283,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.server" />
-      <item itemvalue="Python tests.pytest for test_server.test_new_patient" />
       <item itemvalue="Python tests.pytest in test_server.py" />
       <item itemvalue="Python tests.pytest for test_server.test_tachycardic" />
+      <item itemvalue="Python.sendgrid_try" />
+      <item itemvalue="Python tests.pytest for test_server.test_get_interval" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.sendgrid_try" />
         <item itemvalue="Python tests.pytest in test_server.py" />
+        <item itemvalue="Python tests.pytest for test_server.test_get_interval" />
         <item itemvalue="Python tests.pytest for test_server.test_tachycardic" />
         <item itemvalue="Python.server" />
-        <item itemvalue="Python tests.pytest for test_server.test_new_patient" />
       </list>
     </recent_temporary>
   </component>
@@ -246,18 +302,6 @@
     <configuration />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_server_test_tachycardic - 2018.11.17 at 02h 19m 05s.xml">
-      <configuration name="pytest for test_server.test_tachycardic" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_server_test_tachycardic - 2018.11.17 at 02h 19m 11s.xml">
-      <configuration name="pytest for test_server.test_tachycardic" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_server_test_tachycardic - 2018.11.17 at 02h 22m 01s.xml">
-      <configuration name="pytest for test_server.test_tachycardic" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_server_test_tachycardic - 2018.11.17 at 02h 26m 45s.xml">
-      <configuration name="pytest for test_server.test_tachycardic" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_in_test_server_py - 2018.11.17 at 02h 26m 52s.xml">
       <configuration name="pytest in test_server.py" configurationId="tests" />
     </history-entry>
@@ -276,16 +320,28 @@
     <history-entry file="pytest_in_test_server_py - 2018.11.17 at 02h 33m 36s.xml">
       <configuration name="pytest in test_server.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_in_test_server_py - 2018.11.17 at 03h 06m 58s.xml">
+      <configuration name="pytest in test_server.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_server_test_get_interval - 2018.11.17 at 21h 50m 21s.xml">
+      <configuration name="pytest for test_server.test_get_interval" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_server_py - 2018.11.17 at 21h 50m 30s.xml">
+      <configuration name="pytest in test_server.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_server_py - 2018.11.17 at 22h 07m 12s.xml">
+      <configuration name="pytest in test_server.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24960254" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24960254" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.47097844" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4717608" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -301,6 +357,18 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="73" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="73" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+            <marker date="1542510379778" expanded="true" signature="287:311" ph="..." />
+            <marker date="1542510379778" expanded="true" signature="5703:6150" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -308,40 +376,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server.py">
+    <entry file="file://$PROJECT_DIR$/test_server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-811">
-          <caret line="139" column="7" selection-start-line="139" selection-start-column="4" selection-end-line="139" selection-end-column="7" />
+        <state relative-caret-position="238">
+          <caret line="14" column="44" lean-forward="true" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
           <folding>
-            <element signature="e#0#48#0" expanded="true" />
-            <marker date="1542439993710" expanded="true" signature="150:174" ph="..." />
-            <marker date="1542439993710" expanded="true" signature="1141:5292" ph="..." />
-            <marker date="1542439993710" expanded="true" signature="3401:3896" ph="..." />
-            <marker date="1542439993710" expanded="true" signature="4556:4559" ph="..." />
-            <marker date="1542439993710" expanded="true" signature="5017:5290" ph="..." />
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1542509418805" expanded="true" signature="79:184" ph="..." />
+            <marker date="1542509418805" expanded="true" signature="207:212" ph="..." />
+            <marker date="1542509418805" expanded="true" signature="626:631" ph="..." />
+            <marker date="1542509418805" expanded="true" signature="909:1115" ph="..." />
+            <marker date="1542509418805" expanded="true" signature="1137:1254" ph="..." />
+            <marker date="1542509418805" expanded="true" signature="1311:1316" ph="..." />
+            <marker date="1542509418805" expanded="true" signature="1596:1601" ph="..." />
+            <marker date="1542509418805" expanded="true" signature="1814:2020" ph="..." />
+            <marker date="1542509418805" expanded="true" signature="2301:2432" ph="..." />
+            <marker date="1542509418805" expanded="true" signature="2459:2464" ph="..." />
+            <marker date="1542509418805" expanded="true" signature="2512:2517" ph="..." />
+            <marker date="1542509418805" expanded="true" signature="2512:2774" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_server.py">
+    <entry file="file://$PROJECT_DIR$/sendgrid_try.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="74" column="25" lean-forward="true" selection-start-line="74" selection-start-column="25" selection-end-line="74" selection-end-column="25" />
+        <state relative-caret-position="136">
+          <caret line="8" column="40" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="40" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <marker date="1542441011265" expanded="true" signature="77:182" ph="..." />
-            <marker date="1542441011265" expanded="true" signature="205:210" ph="..." />
-            <marker date="1542441011265" expanded="true" signature="624:629" ph="..." />
-            <marker date="1542441011265" expanded="true" signature="907:1113" ph="..." />
-            <marker date="1542441011265" expanded="true" signature="1135:1252" ph="..." />
-            <marker date="1542441011265" expanded="true" signature="1309:1314" ph="..." />
-            <marker date="1542441011265" expanded="true" signature="1594:1599" ph="..." />
-            <marker date="1542441011265" expanded="true" signature="1812:2018" ph="..." />
-            <marker date="1542441011265" expanded="true" signature="2299:2430" ph="..." />
-            <marker date="1542441011265" expanded="true" signature="2457:2462" ph="..." />
-            <marker date="1542441011265" expanded="true" signature="2510:2515" ph="..." />
-            <marker date="1542441011265" expanded="true" signature="2510:2772" ph="..." />
+            <element signature="e#81#96#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sendgrid.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="93" selection-start-column="93" selection-end-column="93" />
         </state>
       </provider>
     </entry>
