@@ -1,4 +1,11 @@
 # Heart Rate Sentinel Server
+## Notes
+* POST request parameters are send through body of request
+* all endpoints (besides root index /) return data in json form
+* Tachycardia is checked for in those of age less than 1 year old (ie 0-11 months) as a heart rate > 169, according to cutoff for 6-11 month olds
+* heart rate entries must be for previously entered patients (ie patient_id must already exist in patients 'database')
+* data is stored in dictionaries of patients = {patient_id: {patient_info}} and heart_rates = {patient_id: [{heart_rate, time_stamp}]}
+
 ## As of 11/16 Midnight: - tagged release 1.0.0
 * server.py has API endpoints that work locally (as tested through Postman)
 ## Update 3:00 - master branch
