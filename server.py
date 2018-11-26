@@ -214,4 +214,4 @@ def send_email_to_attending(att_email, pat_id):
     print(response.body)
 
 
-app.run('127.0.0.1')
+app.run('vcm-7383.vm.duke.edu')

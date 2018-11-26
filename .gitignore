@@ -1,4 +1,3 @@
-/.idea
-/.pytest_cache
-sendgrid.env
+.idea/
+.pytest_cache/
 sendgrid.env
