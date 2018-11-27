@@ -1,7 +1,12 @@
 from flask import Flask, request, jsonify, abort
 import datetime
+import sendgrid
+import os
+from sendgrid.helpers.mail import *
+from python_http_client import exceptions
 
 app = Flask(__name__)
+sg = sendgrid.SendGridAPIClient(apikey=os.environ.get('SENDGRID_API_KEY'))
 
 patients = {}
 heart_rates = {}
@@ -36,6 +41,7 @@ def new_patient():
 def new_heart_rate():
     """
     POST add heart_rate & timestamp to array
+    sends email to attending physician if patient is tachycardic
     form:
         patient_id,
         heart_rate
@@ -45,6 +51,7 @@ def new_heart_rate():
     pat_id = request.form['patient_id']
     check_patient_exists(pat_id) # check that such patient exists
     # if record exists, patient must also exist
+    patient = patients[pat_id]
     heart_rate = {
         "heart_rate": int(request.form['heart_rate']),
         "timestamp": datetime.datetime.now()
@@ -57,6 +64,11 @@ def new_heart_rate():
         heart_rates[pat_id] = [heart_rate]
 
     # IF TACHYCARDIC, SEND EMAIL TO ATTENDING PHYS
+    if tachycardic(patient["user_age"], heart_rate["heart_rate"]):
+        print("Tachycardic - sending email")
+        print(patient["attending_email"] + " " + pat_id)
+        send_email_to_attending(patient["attending_email"], pat_id)
+
     return jsonify(heart_rate)
 
 
@@ -192,4 +204,24 @@ def handle_not_found(error):
     return jsonify(error=404, text=str(error)), 404
 
 
-app.run('127.0.0.1')
+# SENDGRID API
+def send_email_to_attending(att_email, pat_id):
+    from_email = Email("tm232@duke.edu")
+    to_email = Email(att_email)
+    subject = "Your Patient is Tachycardic"
+    content = Content("text/plain", "You're patient with patient id = {}"
+                                    " is tachycardic according to the last"
+                                    " reading at {}".format(pat_id,
+                                            datetime.datetime.now()))
+    mail = Mail(from_email, subject, to_email, content)
+    try:
+        response = sg.client.mail.send.post(request_body=mail.get())
+    except exceptions.BadRequestsError as e:
+        print(e.body)
+        exit()
+    print(response.status_code)
+    print(response.body)
+    print(response.headers)
+
+
+app.run('vcm-7383.vm.duke.edu')
