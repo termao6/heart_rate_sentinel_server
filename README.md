@@ -5,7 +5,7 @@
 * Tachycardia is checked for in those of age less than 1 year old (ie 0-11 months) as a heart rate > 169, according to cutoff for 6-11 month olds
 * heart rate entries must be for previously entered patients (ie patient_id must already exist in patients 'database')
 * data is stored in dictionaries of patients = {patient_id: {patient_info}} and heart_rates = {patient_id: [{heart_rate, time_stamp}]}
-## Update 11/26
+## Update 11/26 - tagged release 1.1.0
 * now hosted on http://vcm-7383.vm.duke.edu:5000/
 * sendgrid emails should also be working now
 
