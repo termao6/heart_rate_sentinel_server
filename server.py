@@ -13,6 +13,7 @@ heart_rates = {}
 
 @app.route('/')
 def index():
+    print(os.environ.get('SENDGRID_API_KEY'))
     return 'Testing'
 
 
