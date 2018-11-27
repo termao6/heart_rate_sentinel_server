@@ -14,7 +14,7 @@ heart_rates = {}
 @app.route('/')
 def index():
     print(os.environ.get('SENDGRID_API_KEY'))
-    return 'Testing'
+    return 'Testing' + os.environ.get('SENDGRID_API_KEY')
 
 
 @app.route('/api/new_patient', methods=['POST'])
