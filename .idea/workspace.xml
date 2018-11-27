@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fd372d0-3458-4940-a144-c40319c3aa88" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/server.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,7 +38,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="73" />
-          <entry key="Python" value="6750" />
+          <entry key="Python" value="6751" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -48,22 +46,22 @@
           <entry key="dummy" value="9" />
           <entry key="env" value="6" />
           <entry key="gitignore" value="58" />
-          <entry key="py" value="6750" />
+          <entry key="py" value="6751" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="43" column="64" selection-start-line="43" selection-start-column="64" selection-end-line="43" selection-end-column="64" />
+            <state relative-caret-position="151">
+              <caret line="226" column="9" selection-start-line="226" selection-start-column="9" selection-end-line="226" selection-end-column="9" />
               <folding>
                 <element signature="e#0#48#0" expanded="true" />
-                <marker date="1543278682878" expanded="true" signature="329:353" ph="..." />
-                <marker date="1543278682878" expanded="true" signature="5867:6576" ph="..." />
+                <marker date="1543278952620" expanded="true" signature="329:353" ph="..." />
+                <marker date="1543278952620" expanded="true" signature="5867:6576" ph="..." />
               </folding>
             </state>
           </provider>
@@ -89,7 +87,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
@@ -131,8 +129,8 @@
         <option value="$PROJECT_DIR$/test_server.py" />
         <option value="$PROJECT_DIR$/sendgrid_try.py" />
         <option value="$PROJECT_DIR$/sendgrid.env" />
-        <option value="$PROJECT_DIR$/server.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/server.py" />
       </list>
     </option>
   </component>
@@ -379,22 +377,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="43" column="64" selection-start-line="43" selection-start-column="64" selection-end-line="43" selection-end-column="64" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-            <marker date="1543278682878" expanded="true" signature="329:353" ph="..." />
-            <marker date="1543278682878" expanded="true" signature="5867:6576" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="226" column="9" selection-start-line="226" selection-start-column="9" selection-end-line="226" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+            <marker date="1543278952620" expanded="true" signature="329:353" ph="..." />
+            <marker date="1543278952620" expanded="true" signature="5867:6576" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
